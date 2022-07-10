@@ -47,7 +47,7 @@
             // 
             // PanelSide
             // 
-            this.PanelSide.BackColor = System.Drawing.Color.DimGray;
+            this.PanelSide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.PanelSide.Controls.Add(this.btn_StealeriumOptions);
             this.PanelSide.Controls.Add(this.btn_BlitzedOptions);
             this.PanelSide.Controls.Add(this.btn_ItroublveOptions);
@@ -64,7 +64,7 @@
             this.btn_StealeriumOptions.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_StealeriumOptions.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_StealeriumOptions.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_StealeriumOptions.FillColor = System.Drawing.Color.Gray;
+            this.btn_StealeriumOptions.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.btn_StealeriumOptions.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_StealeriumOptions.ForeColor = System.Drawing.Color.White;
             this.btn_StealeriumOptions.Location = new System.Drawing.Point(12, 341);
@@ -80,7 +80,7 @@
             this.btn_BlitzedOptions.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_BlitzedOptions.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_BlitzedOptions.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_BlitzedOptions.FillColor = System.Drawing.Color.Gray;
+            this.btn_BlitzedOptions.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.btn_BlitzedOptions.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_BlitzedOptions.ForeColor = System.Drawing.Color.White;
             this.btn_BlitzedOptions.Location = new System.Drawing.Point(12, 268);
@@ -92,11 +92,12 @@
             // 
             // btn_ItroublveOptions
             // 
+            this.btn_ItroublveOptions.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
             this.btn_ItroublveOptions.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_ItroublveOptions.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_ItroublveOptions.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_ItroublveOptions.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_ItroublveOptions.FillColor = System.Drawing.Color.Gray;
+            this.btn_ItroublveOptions.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.btn_ItroublveOptions.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ItroublveOptions.ForeColor = System.Drawing.Color.White;
             this.btn_ItroublveOptions.Location = new System.Drawing.Point(12, 191);
@@ -119,7 +120,7 @@
             // 
             // PanelHeader
             // 
-            this.PanelHeader.BackColor = System.Drawing.SystemColors.GrayText;
+            this.PanelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
             this.PanelHeader.Controls.Add(this.guna2HtmlLabel1);
             this.PanelHeader.Controls.Add(this.guna2Button1);
             this.PanelHeader.Dock = System.Windows.Forms.DockStyle.Top;
@@ -143,12 +144,12 @@
             // 
             // guna2Button1
             // 
-            this.guna2Button1.BackColor = System.Drawing.SystemColors.GrayText;
+            this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Gray;
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(755, 0);
@@ -160,6 +161,7 @@
             // 
             // MainPanel
             // 
+            this.MainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
             this.MainPanel.Controls.Add(this.guna2Button2);
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(200, 36);

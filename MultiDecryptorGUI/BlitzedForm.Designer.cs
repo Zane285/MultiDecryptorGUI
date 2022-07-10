@@ -40,7 +40,7 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Consolas", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(84, 36);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(363, 45);
@@ -50,12 +50,14 @@
             // PathBlitzed
             // 
             this.PathBlitzed.AllowDrop = true;
+            this.PathBlitzed.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(86)))), ((int)(((byte)(119)))));
             this.PathBlitzed.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.PathBlitzed.DefaultText = "";
             this.PathBlitzed.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.PathBlitzed.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.PathBlitzed.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.PathBlitzed.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PathBlitzed.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.PathBlitzed.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PathBlitzed.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.PathBlitzed.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -80,7 +82,7 @@
             this.btn_Decrypt_DragAndDrop.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_Decrypt_DragAndDrop.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_Decrypt_DragAndDrop.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Decrypt_DragAndDrop.FillColor = System.Drawing.Color.DimGray;
+            this.btn_Decrypt_DragAndDrop.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.btn_Decrypt_DragAndDrop.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_Decrypt_DragAndDrop.ForeColor = System.Drawing.Color.White;
             this.btn_Decrypt_DragAndDrop.Location = new System.Drawing.Point(219, 183);
@@ -92,14 +94,17 @@
             // 
             // InputTextBoxBlitzedWebhook
             // 
+            this.InputTextBoxBlitzedWebhook.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(86)))), ((int)(((byte)(119)))));
             this.InputTextBoxBlitzedWebhook.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.InputTextBoxBlitzedWebhook.DefaultText = "";
             this.InputTextBoxBlitzedWebhook.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.InputTextBoxBlitzedWebhook.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.InputTextBoxBlitzedWebhook.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.InputTextBoxBlitzedWebhook.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.InputTextBoxBlitzedWebhook.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.InputTextBoxBlitzedWebhook.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.InputTextBoxBlitzedWebhook.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.InputTextBoxBlitzedWebhook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.InputTextBoxBlitzedWebhook.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.InputTextBoxBlitzedWebhook.Location = new System.Drawing.Point(53, 287);
             this.InputTextBoxBlitzedWebhook.Multiline = true;
@@ -117,7 +122,7 @@
             this.btn_BlitzedDecryptText.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_BlitzedDecryptText.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_BlitzedDecryptText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_BlitzedDecryptText.FillColor = System.Drawing.Color.DimGray;
+            this.btn_BlitzedDecryptText.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.btn_BlitzedDecryptText.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_BlitzedDecryptText.ForeColor = System.Drawing.Color.White;
             this.btn_BlitzedDecryptText.Location = new System.Drawing.Point(219, 355);
@@ -129,14 +134,17 @@
             // 
             // key_
             // 
+            this.key_.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(86)))), ((int)(((byte)(119)))));
             this.key_.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.key_.DefaultText = "";
             this.key_.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.key_.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.key_.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.key_.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.key_.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.key_.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.key_.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.key_.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.key_.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.key_.Location = new System.Drawing.Point(315, 287);
             this.key_.Multiline = true;
@@ -152,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.key_);
             this.Controls.Add(this.btn_BlitzedDecryptText);
