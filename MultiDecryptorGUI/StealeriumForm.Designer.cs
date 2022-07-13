@@ -59,7 +59,7 @@
             this.PathStealerium.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.PathStealerium.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PathStealerium.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.PathStealerium.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.PathStealerium.ForeColor = System.Drawing.Color.White;
             this.PathStealerium.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PathStealerium.Location = new System.Drawing.Point(53, 115);
             this.PathStealerium.Multiline = true;
@@ -105,6 +105,7 @@
             this.InputTextBoxStealeriumWebhook.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.InputTextBoxStealeriumWebhook.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.InputTextBoxStealeriumWebhook.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.InputTextBoxStealeriumWebhook.ForeColor = System.Drawing.Color.White;
             this.InputTextBoxStealeriumWebhook.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.InputTextBoxStealeriumWebhook.Location = new System.Drawing.Point(53, 287);
             this.InputTextBoxStealeriumWebhook.Multiline = true;

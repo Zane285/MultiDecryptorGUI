@@ -94,5 +94,10 @@ namespace MultiDecryptorGUI
                 Process.Start("cmd.exe");
             }
         }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

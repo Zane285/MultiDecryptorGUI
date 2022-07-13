@@ -48,7 +48,7 @@
             this.InputTextBoxItroublveWebhook.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.InputTextBoxItroublveWebhook.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.InputTextBoxItroublveWebhook.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.InputTextBoxItroublveWebhook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
+            this.InputTextBoxItroublveWebhook.ForeColor = System.Drawing.Color.White;
             this.InputTextBoxItroublveWebhook.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.InputTextBoxItroublveWebhook.Location = new System.Drawing.Point(53, 287);
             this.InputTextBoxItroublveWebhook.Multiline = true;
@@ -89,7 +89,7 @@
             this.PathItroublve.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.PathItroublve.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PathItroublve.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.PathItroublve.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
+            this.PathItroublve.ForeColor = System.Drawing.Color.White;
             this.PathItroublve.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PathItroublve.Location = new System.Drawing.Point(53, 115);
             this.PathItroublve.Multiline = true;

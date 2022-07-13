@@ -60,6 +60,7 @@
             this.PathBlitzed.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.PathBlitzed.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PathBlitzed.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.PathBlitzed.ForeColor = System.Drawing.Color.White;
             this.PathBlitzed.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PathBlitzed.Location = new System.Drawing.Point(53, 115);
             this.PathBlitzed.Multiline = true;
@@ -104,7 +105,7 @@
             this.InputTextBoxBlitzedWebhook.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.InputTextBoxBlitzedWebhook.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.InputTextBoxBlitzedWebhook.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.InputTextBoxBlitzedWebhook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
+            this.InputTextBoxBlitzedWebhook.ForeColor = System.Drawing.Color.White;
             this.InputTextBoxBlitzedWebhook.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.InputTextBoxBlitzedWebhook.Location = new System.Drawing.Point(53, 287);
             this.InputTextBoxBlitzedWebhook.Multiline = true;
@@ -144,7 +145,7 @@
             this.key_.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
             this.key_.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.key_.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.key_.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(47)))));
+            this.key_.ForeColor = System.Drawing.Color.White;
             this.key_.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.key_.Location = new System.Drawing.Point(315, 287);
             this.key_.Multiline = true;
