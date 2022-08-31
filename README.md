@@ -3,6 +3,6 @@ Decrypts the webhooks of some of the most commonly used token loggers/grabbers
 
 Images of the tool
 
-![image](https://user-images.githubusercontent.com/48394213/178158695-b3cfa2e7-2622-4dba-9eed-9974833c646b.png)
-![image](https://user-images.githubusercontent.com/48394213/178158707-93db8d35-0e2b-464f-83de-7a67876ff477.png)
-![image](https://user-images.githubusercontent.com/48394213/178158718-584bee59-e8bb-4a44-85ce-750a8bd27915.png)
+![image](https://user-images.githubusercontent.com/48394213/187580201-26429f60-9c88-4562-9e7d-38633dc3383a.png)
+![image](https://user-images.githubusercontent.com/48394213/187580214-61721f76-d3f4-4db7-b4f5-9548ec3b3ca9.png)
+![image](https://user-images.githubusercontent.com/48394213/187580229-2236115c-2113-4c60-a076-5a714f8f748a.png)
