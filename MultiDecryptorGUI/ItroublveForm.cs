@@ -90,10 +90,9 @@ namespace MultiDecryptorGUI
 
 				var proc1 = new ProcessStartInfo();
 
-				proc1.WorkingDirectory = @"C:\Windows\System32";
 
 				proc1.FileName = @"C:\Windows\System32\cmd.exe";
-				proc1.Arguments = $"/C {confexe} '{path}'";
+				proc1.Arguments = $"/C {confexe} \"{path}";
 				proc1.WindowStyle = ProcessWindowStyle.Hidden;
 				Process.Start(proc1);
 				PathItroublve.Text = "Unconfusing " + filename;
