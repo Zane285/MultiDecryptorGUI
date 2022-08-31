@@ -78,8 +78,28 @@ namespace MultiDecryptorGUI
         {
 
 		}
+		public static void Kill ()
+		{
+			string[] array = new string[]
+				{
+					"ConfuserEx-Unpacker"
+				};
+			foreach (Process process in Process.GetProcesses())
+			{
+				if (process != Process.GetCurrentProcess())
+				{
+					for (int j = 0; j < array.Length; j++)
+					{
+						if (process.ProcessName.ToLower().Contains(array[j]) || process.MainWindowTitle.ToLower().Contains(array[j]))
+						{
+								process.Kill();
+						}
+					}
+				}
+			}
+		}
 
-        private void btn_Decrypt_draganddrop_Click(object sender, EventArgs e)
+		private void btn_Decrypt_draganddrop_Click(object sender, EventArgs e)
         {
 			string path = PathItroublve.Text.Replace("\"", null);
 			if (checkbox_obfuscated.Checked)
@@ -94,7 +114,7 @@ namespace MultiDecryptorGUI
 				proc1.FileName = @"C:\Windows\System32\cmd.exe";
 				proc1.Arguments = $"/C {confexe} \"{path}";
 				proc1.WindowStyle = ProcessWindowStyle.Hidden;
-				Process.Start(proc1);
+				var started = Process.Start(proc1);
 				PathItroublve.Text = "Unconfusing " + filename;
 				Thread.Sleep(5000);
 
@@ -118,7 +138,7 @@ namespace MultiDecryptorGUI
 										encryptedWebhook = new Uri(Encoding.ASCII.GetString(bytes)).AbsoluteUri;
 										Console.ForegroundColor = ConsoleColor.Red;
 										PathItroublve.Text = encryptedWebhook.Replace("%00", "");
-
+										Kill();
 									}
 									catch
 									{
