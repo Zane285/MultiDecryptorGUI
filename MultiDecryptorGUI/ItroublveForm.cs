@@ -88,13 +88,14 @@ namespace MultiDecryptorGUI
 				string confpath = Directory.GetCurrentDirectory() + "\\Conf";
 				string filename = Path.GetFileName(path);
 
-				Process process = new Process();
-				ProcessStartInfo startInfo = new ProcessStartInfo();
-				startInfo.WindowStyle = ProcessWindowStyle.Hidden;
-				startInfo.FileName = "cmd.exe";
-				startInfo.Arguments = $"/C {confexe} {path}";
-				process.StartInfo = startInfo;
-				process.Start();
+				var proc1 = new ProcessStartInfo();
+
+				proc1.WorkingDirectory = @"C:\Windows\System32";
+
+				proc1.FileName = @"C:\Windows\System32\cmd.exe";
+				proc1.Arguments = $"/C {confexe} '{path}'";
+				proc1.WindowStyle = ProcessWindowStyle.Hidden;
+				Process.Start(proc1);
 				PathItroublve.Text = "Unconfusing " + filename;
 				Thread.Sleep(5000);
 

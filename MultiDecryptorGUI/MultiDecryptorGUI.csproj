@@ -140,7 +140,6 @@
     <Content Include="coll_pfp.ico" />
     <Content Include="MultiDecryptor.dll" />
     <Content Include="Resources\anotherone.png" />
-    <EmbeddedResource Include="Resources\SUS" />
     <Content Include="transparent.ico" />
   </ItemGroup>
   <ItemGroup>
